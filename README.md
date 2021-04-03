@@ -33,15 +33,6 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 * Go to Project root directory and install Dependency: `npm install`
 * All the dependencies from package.json and ambient typings would be installed in node_modules folder.
 
-### How to write Test
-* Add new spec under ./cypress/integration folder
-* Name the file as <testname>.spec.js (e.g. test1.spec.js)
-* Create folder under page-objects/pages as <page-name> (e.g. super-calculator)
-* Under page folder create constant, helper and page object file.
-    * <page-name>.constants.ts (e.g. super-calculator.constants.ts)
-    * <page-name>.helper.ts (e.g. super-calculator.helper.ts)
-    * <page-name>.po.ts (e.g. super-calculator.po.ts)
-
 ### How to execute Cypress Tests with Cypress Test Runner?
 * Open Terminal
 * Enter `cypress open`
