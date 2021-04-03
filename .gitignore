@@ -1,0 +1,14 @@
+*.pyc
+bin
+.idea/
+node_modules
+*.log
+__pycache__/
+*.html
+config.cfg
+files/
+.project
+.tern-project
+screenshots/*
+downloads/*
+test_results/*

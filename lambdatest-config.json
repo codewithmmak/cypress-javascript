@@ -1,0 +1,36 @@
+{
+   "lambdatest_auth": {
+      "username": "LT_USERNAME",
+      "access_key": "LT_ACCESS_KEY"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "86.0"
+         ]
+      },
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
+            "82.0"
+         ]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "Cypress Testing 1",
+      "parallels": 2,
+      "specs": "./cypress/integration/examples/*.spec.js",
+      "ignore_files": "",
+      "npm_dependencies": {
+         "cypress": "6.8.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnelName": null
+   }
+}

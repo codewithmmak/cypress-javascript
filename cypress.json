@@ -1,0 +1,5 @@
+{
+    "video": false,
+    "screenshotOnRunFailure": true,
+    "baseUrl": "http://automationpractice.com/index.php"
+}

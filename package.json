@@ -1,0 +1,35 @@
+{
+  "name": "cypress-javascript",
+  "version": "1.0.0",
+  "description": "This is sample Test Automation framework designed using Cypress and JavaScript",
+  "homepage": "https://github.com/qaloop/",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf cypress/videos/ && rimraf cypress/screenshots/",
+    "pretest": "npm run clean",
+    "test": "cypress run",
+    "test-headed": "cypress run --headed",
+    "test-browser": "cypress run --headed --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "bdd",
+    "test automation",
+    "angular",
+    "angularjs",
+    "vscode",
+    "testing",
+    "automation testing",
+    "BDD"
+  ],
+  "author": "QA Loop",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "rimraf": "^3.0.2",
+    "lambdatest-cypress-cli": "^2.0.0"
+  }
+}
