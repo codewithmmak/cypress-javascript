@@ -76,10 +76,10 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 * Issue 01: If yo see error:
 node_modules\.bin\cypress : File D:\CypressAutomation\node_modules\.bin\cypress. cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
 
-Solution:
-- Open `Windows PowerShell` as Administrator
-- Enter `Set-ExecutionPolicy RemoteSigned` and hit enter key
-- Type `Y` and hit enter key
+    Solution:
+    - Open `Windows PowerShell` as Administrator
+    - Enter `Set-ExecutionPolicy RemoteSigned` and hit enter key
+    - Type `Y` and hit enter key
 
 ### References
 * https://docs.cypress.io/guides/guides/command-line#cypress-run
