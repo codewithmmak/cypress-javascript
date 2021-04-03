@@ -70,7 +70,7 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 * Go to Project root directory and run command: `npm update`
 
 ### Sample Test Results
-![Cypress and JavaScript Test Result](./images/console-test-results.png?raw=true "Cypress and JavaScript Console Test Result")
+![Cypress and JavaScript Test Result](./images/console-test-results.PNG?raw=true "Cypress and JavaScript Console Test Result")
 
 ### Troubleshoot
 * Issue 01: If yo see error:
