@@ -71,8 +71,19 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 
 ## Run tests on LambdaTest
 
+### How to configure test to run on LambdaTest
+* Open `lambdatest-config.json`
+* Update `lambdatest_auth` node with your `username` and `access_key` which can be found when you log into you LambdaTest `https://accounts.lambdatest.com/login`
+* Update `browsers` node with the browser/os name on which you want to run the tests
+* Update `run_settings` with 
+    - `parallels` number of instances you want to run the tests in parallel
+    - `specs` path where you have your specs
+
 ### How to Run Test on LambdaTest
 * Open Terminal and enter command: `lambdatest-cypress run`
+
+### LambdaTest Results
+![Lambda Test Result](./images/lambdatest-test-results.PNG?raw=true "Lambda Test Result")
 
 ## Troubleshooting
 * Issue 01: If yo see error:
