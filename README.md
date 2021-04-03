@@ -63,15 +63,11 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 ### How to Run Test with headed browser
 * Open Terminal and enter command: `cypress run --headed --browser chrome`
 
-### How to Run Test on LambdaTest
-* Open Terminal and enter command: `lambdatest-cypress run`
+### Console Test Results
+![Cypress and JavaScript Test Result](./images/console-test-results.PNG?raw=true "Cypress and JavaScript Console Test Result")
 
 ### How to Update local npm packages
 * Go to Project root directory and run command: `npm update`
-
-### Sample Test Results
-![Cypress and JavaScript Test Result](./images/console-test-results.PNG?raw=true "Cypress and JavaScript Console Test Result")
-
 ### Troubleshoot
 * Issue 01: If yo see error:
 node_modules\.bin\cypress : File D:\CypressAutomation\node_modules\.bin\cypress. cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
@@ -80,6 +76,11 @@ node_modules\.bin\cypress : File D:\CypressAutomation\node_modules\.bin\cypress.
     - Open `Windows PowerShell` as Administrator
     - Enter `Set-ExecutionPolicy RemoteSigned` and hit enter key
     - Type `Y` and hit enter key
+
+## Run tests on LambdaTest
+
+### How to Run Test on LambdaTest
+* Open Terminal and enter command: `lambdatest-cypress run`
 
 ### References
 * https://docs.cypress.io/guides/guides/command-line#cypress-run
