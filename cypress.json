@@ -1,5 +1,7 @@
 {
-    "video": false,
     "screenshotOnRunFailure": true,
-    "baseUrl": "http://automationpractice.com/index.php"
+    "video": false,
+    "baseUrl": "http://the-internet.herokuapp.com",
+    "screenshotsFolder": "./screenshots",
+    "videosFolder": "./videos"
 }

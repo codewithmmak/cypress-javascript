@@ -8,19 +8,6 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 * JavaScript is used as scripting language.
 * Reporting is implemented using Cypress npm module. This generates the report in html and json. Also it captures the screenshots.
 
-## Framework Structure
-```
-├───images                          # This folder contains sample report image
-├───page-objects                    # This folder contains page object, page helper and page contants
-│   ├───common
-│   └───pages
-│       ├───common
-│       └───super-calculator
-├───temp                            # This folder contains JS file which are generated after compiling TypeScript files
-├───test-results                    # This folder contains test result (includes html report and screenshots)
-└───test-suites                     # This folder contains spec/test files
-```
-
 ## To Get Started
 
 ### Pre-requisites
@@ -46,7 +33,7 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 * Open Terminal and enter command: `npm test`
 
 ### How to Run Test for single spec
-* Open Terminal and enter command: `npm test --spec "cypress/integration/example/test_search_result.spec.js"`
+* Open Terminal and enter command: `cypress run --spec 'cypress/integration/examples/test_01_title_logo.spec.js'`
 
 ### How to Run Test with specific browser
 * Open Terminal and enter command: `cypress run --browser chrome`
@@ -77,14 +64,12 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 ![Lambda Test Result](./images/lambdatest-test-results.PNG?raw=true "Lambda Test Result")
 
 ## Troubleshooting
-* Issue 01: If yo see error:
-node_modules\.bin\cypress : File D:\CypressAutomation\node_modules\.bin\cypress. cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+* Issue 01: If you see error:
+    node_modules\.bin\cypress : File D:\CypressAutomation\node_modules\.bin\cypress. cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
 
     Solution:
     - Open `Windows PowerShell` as Administrator
     - Enter `Set-ExecutionPolicy RemoteSigned` and hit enter key
     - Type `Y` and hit enter key
 ## References
-* https://docs.cypress.io/guides/guides/command-line#cypress-run
-* https://docs.cypress.io/guides/guides/screenshots-and-videos#Screenshots
-* https://docs.cypress.io/guides/references/configuration#cypress-json
+* https://www.tutorialspoint.com/questions/category/cypress

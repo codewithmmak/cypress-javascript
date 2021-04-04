@@ -2,14 +2,12 @@
   "name": "cypress-javascript",
   "version": "1.0.0",
   "description": "This is sample Test Automation framework designed using Cypress and JavaScript",
-  "homepage": "https://github.com/qaloop/",
+  "homepage": "https://github.com/qaloop/cypress-javascript",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf cypress/videos/ && rimraf cypress/screenshots/",
+    "clean": "rimraf videos/ && rimraf screenshots/",
     "pretest": "npm run clean",
-    "test": "cypress run",
-    "test-headed": "cypress run --headed",
-    "test-browser": "cypress run --headed --browser chrome"
+    "test": "cypress run --headed --browser chrome"
   },
   "keywords": [
     "cypress",
@@ -25,11 +23,11 @@
   ],
   "author": "QA Loop",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "cypress": "^6.8.0",
-    "rimraf": "^3.0.2",
-    "lambdatest-cypress-cli": "^2.0.0"
+    "lambdatest-cypress-cli": "^2.0.0",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2"
   }
 }
