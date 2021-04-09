@@ -3,5 +3,11 @@
     "video": false,
     "baseUrl": "http://the-internet.herokuapp.com",
     "screenshotsFolder": "./screenshots",
-    "videosFolder": "./videos"
+    "videosFolder": "./videos",
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
 }

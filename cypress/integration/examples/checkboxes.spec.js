@@ -8,6 +8,6 @@ describe ('Checkboxes', () => {
         cy.visit('checkboxes')
         .get('h3').should('have.text', 'Checkboxes')
         .get('input[type="checkbox"]').check().should('be.checked')
-        .get('input[type="checkbox1"]').uncheck().should('not.be.checked')
+        .get('input[type="checkbox"]').uncheck().should('not.be.checked')
     })
 })

@@ -5,9 +5,12 @@
   "homepage": "https://github.com/qaloop/cypress-javascript",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf videos/ && rimraf screenshots/",
+    "clean": "rimraf mochawesome-report/ && rimraf videos/ && rimraf screenshots/",
     "pretest": "npm run clean",
-    "test": "cypress run --headed --browser chrome"
+    "test": "cypress open", 
+    "test:cli": "npm run pretest && cypress run --headed --browser chrome --spec 'cypress/integration/examples/checkboxes.spec.js'",
+    "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
+    "create:html:report": "npm run merge:reports && marge --reportDir test-report cypress-combined-report.json"
   },
   "keywords": [
     "cypress",
@@ -18,15 +21,18 @@
     "angularjs",
     "vscode",
     "testing",
-    "automation testing",
-    "BDD"
+    "automation testing"
   ],
   "author": "QA Loop",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^6.8.0",
-    "lambdatest-cypress-cli": "^2.0.0",
+    "cypress": "^6.9.1",
+    "lambdatest-cypress-cli": "^2.0.1",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
     "path": "^0.12.7",
     "rimraf": "^3.0.2"
   }

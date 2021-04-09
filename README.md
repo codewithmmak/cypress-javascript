@@ -29,11 +29,14 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
     * As and when you save your tests, it will automatically run the tests. 
     * With this you can watch the result as and when you write line of code
 
-### How to run all Cypress Tests using Cypress CLI?
+### How to run all Cypress Tests using Cypress Test Runner using npm command?
 * Open Terminal and enter command: `npm test`
 
+### How to run all Cypress Tests using CLI?
+* Open Terminal and enter command: `npm run test:cli`
+
 ### How to Run Test for single spec
-* Open Terminal and enter command: `cypress run --spec 'cypress/integration/examples/test_01_title_logo.spec.js'`
+* Open Terminal and enter command: `cypress run --spec 'cypress/integration/examples/checkboxes.spec.js'`
 
 ### How to Run Test with specific browser
 * Open Terminal and enter command: `cypress run --browser chrome`

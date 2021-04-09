@@ -26,7 +26,7 @@
       "specs": "./cypress/integration/examples/*.spec.js",
       "ignore_files": "",
       "npm_dependencies": {
-         "cypress": "6.8.0"
+         "cypress": "6.9.1"
       }
    },
    "tunnel_settings": {

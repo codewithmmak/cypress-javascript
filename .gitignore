@@ -1,14 +1,6 @@
-*.pyc
-bin
-.idea/
 node_modules
-*.log
-__pycache__/
-*.html
-config.cfg
-files/
-.project
-.tern-project
+mochawesome-report/*
 screenshots/*
+videos/*
 downloads/*
-test_results/*
+test-report/*
