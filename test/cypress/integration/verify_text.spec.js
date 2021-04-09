@@ -7,7 +7,7 @@ describe ('Verify Text', () => {
     it('Verify text on page', () => {
 
         cy.visit('abtest')
-        .get('h3').should('have.text', 'A/B Test Control')
+        .get('h3').contains('A/B Test')
         .get('p').contains('Also known as split testing')
     })
 })
