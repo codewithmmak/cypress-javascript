@@ -5,10 +5,10 @@
   "homepage": "https://github.com/qaloop/cypress-javascript",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf mochawesome-report/ && rimraf videos/ && rimraf screenshots/",
+    "clean": "rimraf mochawesome-report/ && rimraf test/cypress/videos/ && rimraf test/cypress/screenshots/",
     "pretest": "npm run clean",
     "test": "cypress open", 
-    "test:cli": "npm run pretest && cypress run --headed --browser chrome --spec 'cypress/integration/examples/checkboxes.spec.js'",
+    "test:cli": "npm run pretest && cypress run --headed --browser chrome --spec 'test/cypress/integration/checkboxes.spec.js'",
     "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
     "create:html:report": "npm run merge:reports && marge --reportDir test-report cypress-combined-report.json"
   },

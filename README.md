@@ -6,7 +6,7 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 ## Features
 * This automation framework is designed using Cypress.
 * JavaScript is used as scripting language.
-* Reporting is implemented using Cypress npm module. This generates the report in html and json. Also it captures the screenshots.
+* Reporting is implemented using `mochawesome-report-generator` npm module. This generates the report in html. Also it captures the screenshots.
 
 ## To Get Started
 
@@ -24,19 +24,20 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 * Open Terminal
 * Enter `cypress open`
     * This will open Test Runner window
-* Click on `Run all specs` button or double click on any of the spec
+* Click on `Run all specs` button or double click on any of the spec.
     * This will open a browser instance and run the tests. 
     * As and when you save your tests, it will automatically run the tests. 
-    * With this you can watch the result as and when you write line of code
+    * With this you can watch the result as and when you write line of code.
 
 ### How to run all Cypress Tests using Cypress Test Runner using npm command?
 * Open Terminal and enter command: `npm test`
+* Double click the test you want to run.
 
 ### How to run all Cypress Tests using CLI?
 * Open Terminal and enter command: `npm run test:cli`
 
 ### How to Run Test for single spec
-* Open Terminal and enter command: `cypress run --spec 'cypress/integration/examples/checkboxes.spec.js'`
+* Open Terminal and enter command: `cypress run --spec 'test/cypress/integration/checkboxes.spec.js'`
 
 ### How to Run Test with specific browser
 * Open Terminal and enter command: `cypress run --browser chrome`
@@ -46,6 +47,10 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 
 ### Console Test Results
 ![Cypress and JavaScript Test Result](./images/console-test-results.PNG?raw=true "Cypress and JavaScript Console Test Result")
+
+### How to Generate HTML Report
+* Open Terminal and enter command: `npm run create:html:report`
+![Cypress and JavaScript Test Result](./images/html-test-report.PNG?raw=true "Cypress and JavaScript HTML Test Report")
 
 ### How to Update local npm packages
 * Go to Project root directory and run command: `npm update`

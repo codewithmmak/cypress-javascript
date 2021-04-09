@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-04-09T15:48:56.056Z",
-    "end": "2021-04-09T15:49:14.896Z",
-    "duration": 17984,
+    "start": "2021-04-09T16:07:24.154Z",
+    "end": "2021-04-09T16:07:38.923Z",
+    "duration": 14434,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,16 +18,16 @@
   },
   "results": [
     {
-      "uuid": "546acf66-9987-4490-acc5-1ea8002475df",
+      "uuid": "654fa51d-8332-4081-95e1-29bfc5417504",
       "title": "",
-      "fullFile": "cypress\\integration\\examples\\checkboxes.spec.js",
-      "file": "cypress\\integration\\examples\\checkboxes.spec.js",
+      "fullFile": "test\\cypress\\integration\\checkboxes.spec.js",
+      "file": "test\\cypress\\integration\\checkboxes.spec.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "3179b20c-e00a-49ab-845a-f74a484f12ea",
+          "uuid": "9c2a9eb9-52a3-4e59-b11d-9a951c34df9a",
           "title": "Checkboxes",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Checkboxes Test",
               "fullTitle": "Checkboxes Checkboxes Test",
               "timedOut": null,
-              "duration": 17984,
+              "duration": 14434,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('checkboxes').get('h3').should('have.text', 'Checkboxes').get('input[type=\"checkbox\"]').check().should('be.checked').get('input[type=\"checkbox\"]').uncheck().should('not.be.checked');",
               "err": {},
-              "uuid": "b1a3107a-9860-4e75-b4c7-05f0f81a8f4e",
-              "parentUUID": "3179b20c-e00a-49ab-845a-f74a484f12ea",
+              "uuid": "ac35689a-e92e-46b2-98f3-144d29b7db4f",
+              "parentUUID": "9c2a9eb9-52a3-4e59-b11d-9a951c34df9a",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b1a3107a-9860-4e75-b4c7-05f0f81a8f4e"
+            "ac35689a-e92e-46b2-98f3-144d29b7db4f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 17984,
+          "duration": 14434,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
