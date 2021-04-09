@@ -1,6 +1,8 @@
 node_modules
 mochawesome-report/*
 screenshots/*
+test/cypress/screenshots/*
 videos/*
+test/cypress/videos/
 downloads/*
 test-report/*
