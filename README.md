@@ -50,6 +50,8 @@ This is sample Test Automation framework designed using Cypress and JavaScript. 
 
 ### How to Generate HTML Report
 * Open Terminal and enter command: `npm run create:html:report`
+* Go to `test-report` folder and you will find the html report
+
 ![Cypress and JavaScript Test Result](./images/html-test-report.PNG?raw=true "Cypress and JavaScript HTML Test Report")
 
 ### How to Update local npm packages
