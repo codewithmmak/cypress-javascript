@@ -8,7 +8,7 @@
     "clean": "rimraf mochawesome-report/ && rimraf test/cypress/videos/ && rimraf test/cypress/screenshots/",
     "pretest": "npm run clean",
     "test": "cypress open",
-    "test:cli": "npm run pretest && cypress run --headed --browser chrome --spec 'test/cypress/integration/file_upload.spec.js'",
+    "test:cli": "npm run pretest && cypress run --headed --browser chrome --spec 'test/cypress/integration/my_info.spec.js'",
     "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
     "create:html:report": "npm run merge:reports && marge --reportDir test-report cypress-combined-report.json"
   },
@@ -29,6 +29,7 @@
   "devDependencies": {
     "cypress": "^6.9.1",
     "cypress-file-upload": "^5.0.5",
+    "faker": "^5.5.3",
     "lambdatest-cypress-cli": "^2.0.1",
     "mocha": "^8.3.2",
     "mochawesome": "^6.2.2",

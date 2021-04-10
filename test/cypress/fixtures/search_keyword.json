@@ -1,0 +1,8 @@
+{
+    "DirectorySearch" : {
+        "Name": "This is Random Name",
+        "JobTitle": "HR Manager",
+        "Location": "Texas R&D",
+        "NoRecordFound": "No Records Found"
+    }
+}

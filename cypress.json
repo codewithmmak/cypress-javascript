@@ -1,7 +1,7 @@
 {
     "screenshotOnRunFailure": true,
     "video": false,
-    "baseUrl": "http://the-internet.herokuapp.com",
+    "baseUrl": "https://opensource-demo.orangehrmlive.com/",
     "fixturesFolder": "test/cypress/fixtures",
     "integrationFolder": "test/cypress/integration",
     "pluginsFile": "test/cypress/plugins/index.js",

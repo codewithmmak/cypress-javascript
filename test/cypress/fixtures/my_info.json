@@ -1,0 +1,14 @@
+{
+    "PersonalDetails": {
+        "FirstName": "Paul",
+        "LastName": "Collings",
+        "EmployeeId": "0024",
+        "Nationality": "American",
+        "MaritalStatus": "Married",
+        "DateOfBirth": "1975-10-15"
+    },
+    "ContactDetails": {
+        "WorkTelephone": "112-898-7612",
+        "WorkEmail": "paul1@osohrm.com"
+    }
+}
