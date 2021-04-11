@@ -28,8 +28,6 @@ describe ('Add Employee Tests', function () {
         .get('#middleName').should('be.visible').type(randomMiddleName)
         .get('#lastName').should('be.visible').type(randomLastName)
 
-        // var empId = cy.get('#employeeId')
-
         let filePath = "test-data/Profile_Pic.jpg";
 
         cy.get('input[type="file"]').should('be.visible')
@@ -39,6 +37,5 @@ describe ('Add Employee Tests', function () {
         .get('#personal_txtEmpFirstName').should('have.value', randomFirstName)
         .get('#personal_txtEmpMiddleName').should('have.value', randomMiddleName)
         .get('#personal_txtEmpLastName').should('have.value', randomLastName)
-        // .get('#personal_txtEmployeeId').should('have.value', empId)
     })
 })

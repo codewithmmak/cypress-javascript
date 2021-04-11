@@ -23,7 +23,7 @@
       "cypress_config_file": "cypress.json",
       "build_name": "Cypress Testing 1",
       "parallels": 2,
-      "specs": "./cypress/integration/examples/*.spec.js",
+      "specs": "./test/cypress/integration/*.spec.js",
       "ignore_files": "",
       "npm_dependencies": {
          "cypress": "6.9.1"
