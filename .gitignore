@@ -6,3 +6,4 @@ videos/*
 test/cypress/videos/
 downloads/*
 test-report/*
+cypress-combined-report.json

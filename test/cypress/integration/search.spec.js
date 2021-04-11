@@ -21,6 +21,6 @@ describe ('Directory Search Tests', function () {
         .get('#searchDirectory_emp_name_empName').should('be.visible').click()
         .type(search_keyword.DirectorySearch.Name)
         .get('#searchBtn').should('be.visible').click()
-        .get('div:contains(search_keyword.DirectorySearch.NoRecordFound)').should('have.text', search_keyword.DirectorySearch.NoRecordFound)
+        .get('div[class="box searchForm"] div[class="inner"]').contains(search_keyword.DirectorySearch.NoRecordFound)
     })
 })
