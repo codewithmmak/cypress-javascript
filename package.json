@@ -10,7 +10,7 @@
     "test": "cypress open",
     "test:cli": "npm run pretest && cypress run --headed --browser chrome",
     "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-combined-report.json",
-    "create:html:report": "npm run merge:reports && marge --reportDir test-report cypress-combined-report.json"
+    "create:html:report": "npm run merge:reports && marge --reportDir test-report --reportFilename Cypress_Test_Report --reportPageTitle Cypress_Test_Report --charts true cypress-combined-report.json"
   },
   "keywords": [
     "cypress",
