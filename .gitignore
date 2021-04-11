@@ -7,3 +7,4 @@ test/cypress/videos/
 downloads/*
 test-report/*
 cypress-combined-report.json
+test.zip
