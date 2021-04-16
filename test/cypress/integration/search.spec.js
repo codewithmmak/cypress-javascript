@@ -1,3 +1,5 @@
+/// <reference types = "cypress" />
+
 import login_details from '../fixtures/login_details.json';
 import search_keyword from '../fixtures/search_keyword.json';
 

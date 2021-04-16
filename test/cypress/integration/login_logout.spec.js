@@ -1,3 +1,5 @@
+/// <reference types = "cypress" />
+
 describe ('Login and Logout Test', function () {
 
     beforeEach(function () {

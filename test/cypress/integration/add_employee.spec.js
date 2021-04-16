@@ -1,3 +1,5 @@
+/// <reference types = "cypress" />
+
 import login_details from '../fixtures/login_details.json';
 
 var faker = require('faker');
