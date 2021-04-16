@@ -7,9 +7,9 @@ var randomFirstName = faker.name.firstName();
 var randomMiddleName = faker.name.middleName();
 var randomLastName = faker.name.lastName();
 
-describe ('Add Employee Tests', function () {
+describe ('Add Employee Tests', () => {
 
-    beforeEach(function () {
+    beforeEach(() => {
         cy.visit('/')
 
         cy.get('#logInPanelHeading').should('have.text', login_details.panelName)
@@ -22,7 +22,7 @@ describe ('Add Employee Tests', function () {
 
     })
 
-    it('Verify as a user I can Add Employee', function () {
+    it('Verify as a user I can Add Employee', () => {
         cy.get('#menu_pim_viewPimModule').should('be.visible').click()
         .get('#btnAdd').should('be.visible').click()
         .get('h1:contains(Add Employee)').should('have.text', 'Add Employee')

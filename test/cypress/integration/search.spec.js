@@ -3,9 +3,9 @@
 import login_details from '../fixtures/login_details.json';
 import search_keyword from '../fixtures/search_keyword.json';
 
-describe ('Directory Search Tests', function () {
+describe ('Directory Search Tests', () => {
 
-    beforeEach(function () {
+    beforeEach(() => {
         cy.visit('/')
 
         cy.get('#logInPanelHeading').should('have.text', login_details.panelName)
@@ -18,7 +18,7 @@ describe ('Directory Search Tests', function () {
 
     })
 
-    it('Verify as a user I can search by Name on Directory page and no matching results are found', function () {
+    it('Verify as a user I can search by Name on Directory page and no matching results are found', () => {
         cy.get('#menu_directory_viewDirectory').should('be.visible').click()
         .get('#searchDirectory_emp_name_empName').should('be.visible').click()
         .type(search_keyword.DirectorySearch.Name)

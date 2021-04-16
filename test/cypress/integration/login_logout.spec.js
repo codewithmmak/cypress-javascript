@@ -1,8 +1,8 @@
 /// <reference types = "cypress" />
 
-describe ('Login and Logout Test', function () {
+describe ('Login and Logout Test', () => {
 
-    beforeEach(function () {
+    beforeEach(() => {
         cy.visit('/')
         cy.fixture('login_details').then(function (login_details) {
             this.login_details = login_details
