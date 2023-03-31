@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^6.9.1",
+    "cypress": "^12.0.0",
     "cypress-file-upload": "^5.0.8",
     "faker": "^6.0.0",
     "lambdatest-cypress-cli": "^2.4.3",
