@@ -29,7 +29,7 @@
   "devDependencies": {
     "cypress": "^12.17.3",
     "cypress-file-upload": "^5.0.8",
-    "faker": "^6.6.6",
+    "@faker-js/faker": "^5.5.3",
     "lambdatest-cypress-cli": "^3.0.17",
     "mocha": "^10.2.0",
     "mochawesome": "^7.1.3",
