@@ -36,6 +36,6 @@
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0",
     "path": "^0.12.7",
-    "rimraf": "^5.0.1"
+    "rimraf": "^6.0.0"
   }
 }
